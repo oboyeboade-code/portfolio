@@ -3,13 +3,15 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import { Github, Linkedin, Mail, Twitter } from "@/components/icons";
+import { useRouter } from "next/navigation";
+
 
 export default function ContactClient() {
+  const router = useRouter();
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     setLoading(true);
 
     const formData = new FormData(e.currentTarget);
@@ -23,12 +25,21 @@ export default function ContactClient() {
       });
 
       if (res.ok) {
-        window.location.href = "/thank-you";
+        router.push("/thank-you");
+        setTimeout(() => {
+          router.push("/");
+        }, 2000);
       } else {
-        window.location.href = "/failed";
+        router.push("/failed");
+        setTimeout(() => {
+          router.back();
+        }, 2000);
       }
     } catch {
-      window.location.href = "/failed";
+        router.push("/failed");
+        setTimeout(() => {
+          router.back();
+        }, 2000);
     } finally {
       setLoading(false);
     }
