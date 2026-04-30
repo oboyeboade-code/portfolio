@@ -9,9 +9,7 @@ export default function Home() {
         Opeyemi <span>Oyeboade</span>
       </h1>
       <p className={styles.lede}>
-        I build clean, responsive web apps with React and Next.js. Passionate
-        about turning ideas into real products and shipping things that feel
-        good to use.
+        I build full-stack web applications with the MERN stack (MongoDB, Express, React, Node.js), focusing on clean architecture, responsive design, and seamless user experience.
       </p>
 
       <div className={styles.ctas}>
