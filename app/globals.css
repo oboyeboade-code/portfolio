@@ -269,4 +269,8 @@ input[type="submit"]:hover { background: var(--accent-strong); }
 @media (max-width: 640px) {
   .nav ul { gap: var(--space-4); }
   .greeting { display: none; }
+  :root { font-size: 12px; }
+}
+@media (max-width: 320px) {
+  .nav ul { display: none; }
 }
