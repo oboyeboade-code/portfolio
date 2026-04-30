@@ -25,38 +25,44 @@ export default function Home() {
 
       <div className={styles.grid}>
         <div className={styles.card}>
-          <p className={styles.cardLabel}>Frameworks</p>
+          <p className={styles.cardLabel}>Frameworks & Libraries</p>
           <ul className={styles.chips}>
             <li>React</li>
             <li>Next.js</li>
             <li>Redux Toolkit</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Mongoose</li>
+            <li>JWT Authentication</li>
           </ul>
         </div>
         <div className={styles.card}>
           <p className={styles.cardLabel}>Languages</p>
           <ul className={styles.chips}>
-            <li>JavaScript</li>
+            <li>JavaScript (ES6+)</li>
             <li>TypeScript</li>
             <li>Python</li>
-            <li>SQL</li>
             <li>C</li>
+            <li>HTML</li>
           </ul>
         </div>
         <div className={styles.card}>
           <p className={styles.cardLabel}>Styling & Data</p>
           <ul className={styles.chips}>
-            <li>HTML</li>
-            <li>CSS Modules</li>
-            <li>Tailwind</li>
+            <li>CSS3</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap CSS</li>
             <li>MongoDB</li>
           </ul>
         </div>
         <div className={styles.card}>
-          <p className={styles.cardLabel}>Learning from</p>
+          <p className={styles.cardLabel}>Learning & Development</p>
           <ul className={styles.chips}>
-            <li>freeCodeCamp</li>
-            <li>Codecademy</li>
-            <li>W3Schools</li>
+            <li>GOMYCODE (Structured Bootcamp Training)</li>
+            <li>freeCodeCamp (Hands-on Practice)</li>
+            <li>Codecademy (Interactive Learning)</li>
+            <li>W3Schools (Documentation Reference)</li>
           </ul>
         </div>
       </div>

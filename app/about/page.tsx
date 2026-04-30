@@ -27,17 +27,22 @@ const sections = [
     title: "What I Do",
     body: (
       <>
-        <p>I work mostly with modern web technologies:</p>
+        <p>I build full-stack web applications using modern JavaScript technologies:</p>
+
         <ul>
           <li>JavaScript (ES6+) &amp; TypeScript</li>
           <li>React / Next.js</li>
+          <li>Node.js / Express.js (Backend APIs)</li>
+          <li>MongoDB (Database)</li>
           <li>HTML &amp; CSS — Tailwind, CSS Modules</li>
         </ul>
+
         <p>I focus on:</p>
         <ul>
-          <li>Responsive user interfaces</li>
-          <li>Interactive web applications</li>
-          <li>Clean and maintainable code</li>
+          <li>Responsive and accessible user interfaces</li>
+          <li>Full-stack web applications (frontend + backend integration)</li>
+          <li>REST APIs and authentication systems</li>
+          <li>Clean, maintainable, and scalable code</li>
         </ul>
       </>
     ),
@@ -46,10 +51,11 @@ const sections = [
     title: "My Journey",
     body: (
       <p>
-        I started with the fundamentals — HTML, CSS, and JavaScript — then moved
-        into React and Next.js, where I began building full projects and
-        sharpening my problem-solving skills. I&apos;m constantly learning and
-        experimenting with new tools.
+        I started with the fundamentals — HTML, CSS, and JavaScript — and gradually
+        moved into React and Next.js. As I progressed, I expanded into backend
+        development with Node.js, Express, and MongoDB, allowing me to build full-stack
+        applications. I&apos;m continuously learning, building projects, and improving
+        my problem-solving and system design skills.
       </p>
     ),
   },
