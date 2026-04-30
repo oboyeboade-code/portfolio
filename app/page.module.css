@@ -1,0 +1,74 @@
+.hero {
+  padding: 80px 0 48px;
+}
+.eyebrow {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: .9rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+.name {
+  font-size: clamp(2.5rem, 7vw, 4.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+.name span {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+.lede {
+  margin-top: var(--space-6);
+  max-width: 60ch;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+.ctas {
+  margin-top: var(--space-8);
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+.grid {
+  margin-top: var(--space-16);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+}
+.cardLabel {
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: var(--space-3);
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.chips li {
+  font-size: .85rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
