@@ -59,10 +59,10 @@ export default function Home() {
         <div className={styles.card}>
           <p className={styles.cardLabel}>Learning & Development</p>
           <ul className={styles.chips}>
-            <li>GOMYCODE (Structured Bootcamp Training)</li>
-            <li>freeCodeCamp (Hands-on Practice)</li>
-            <li>Codecademy (Interactive Learning)</li>
-            <li>W3Schools (Documentation Reference)</li>
+            <li>GOMYCODE</li>
+            <li>freeCodeCamp</li>
+            <li>Codecademy</li>
+            <li>W3Schools</li>
           </ul>
         </div>
       </div>
