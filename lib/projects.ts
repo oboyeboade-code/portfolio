@@ -93,5 +93,17 @@ export const projects: Project[] = [
       "JavaScript",
       "Email Service (Transactional Emails)"
     ]
+  },
+  {
+    title: "My Portfolio",
+    description:
+      "A personal developer portfolio showcasing my projects, skills, and growth as a fullstack developer.",
+    steps: [
+      "Browse featured projects",
+      "View live demos of applications",
+      "Explore project details and tech stacks"
+    ],
+    liveUrl: "https://portfolio-chi-five-9wum7u7lqo.vercel.app/",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"]
   }
 ];
