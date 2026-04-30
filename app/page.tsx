@@ -30,7 +30,6 @@ export default function Home() {
             <li>React</li>
             <li>Next.js</li>
             <li>Redux Toolkit</li>
-            <li>TypeScript</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Mongoose</li>
