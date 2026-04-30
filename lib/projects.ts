@@ -19,7 +19,8 @@ export const projects: Project[] = [
     ],
     // liveUrl: "https://project-scopevale.vercel.app/",
     liveUrl: "https://oboyeboade-code.github.io/motiva_app/",
-    stack: ["React", "Next.js", "CSS"],
+    stack: ["JavaScript", "HTML", "CSS"],
+    // stack: ["React", "Next.js", "CSS"],
   },
   {
     title: "Todo App",
@@ -43,6 +44,54 @@ export const projects: Project[] = [
       "Press = to calculate, C to clear",
     ],
     liveUrl: "https://calculator-nine-kappa-11.vercel.app/",
-    stack: ["React", "CSS"],
+    stack: ["JavaScript", "HTML", "CSS"],
   },
+  {
+    title: "WorkspaceOS - !Active",
+    description:
+      "A full-stack MERN-based productivity and workspace management platform for monitoring and organizing employee activities.",
+
+    steps: [
+      "Login as an employee or admin",
+      "Track workspace activities and task progress",
+      "View performance insights and activity logs",
+      "Manage users and workspace data in real time"
+    ],
+
+    liveUrl: "",
+
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    title: "Subs - !Active",
+    description:
+      "A full-stack MERN-based prepaid service code platform that allows users to prepay vendors for multiple service uses and receive secure single-use codes via email.",
+
+    steps: [
+      "Browse available service providers",
+      "Select and purchase a prepaid bundle (N uses)",
+      "Receive single-use codes via email",
+      "Present code at provider location",
+      "Provider redeems code through dashboard"
+    ],
+
+    liveUrl: "",
+
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "Email Service (Transactional Emails)"
+    ]
+  }
 ];
