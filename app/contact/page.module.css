@@ -25,6 +25,10 @@
   .grid { grid-template-columns: 1fr; }
 }
 .form { width: 100%; }
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
 .side {
   background: var(--surface);
   border: 1px solid var(--border);

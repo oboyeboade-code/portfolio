@@ -18,7 +18,7 @@ export default function ContactClient() {
     const body = Object.fromEntries(formData);
 
     try {
-      const res = await fetch("/api", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...body, submittedOn: new Date().toLocaleString() }),
