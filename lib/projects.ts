@@ -47,7 +47,7 @@ export const projects: Project[] = [
     stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
-    title: "WorkspaceOS - in progress",
+    title: "Workspace - in progress",
     description:
       "A full-stack MERN-based productivity and workspace management platform for monitoring and organizing employee activities.",
 
