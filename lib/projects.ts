@@ -47,7 +47,7 @@ export const projects: Project[] = [
     stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
-    title: "WorkspaceOS - !Active",
+    title: "WorkspaceOS - in progress",
     description:
       "A full-stack MERN-based productivity and workspace management platform for monitoring and organizing employee activities.",
 
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "Subs - !Active",
+    title: "Subs - in progress",
     description:
       "A full-stack MERN-based prepaid service code platform that allows users to prepay vendors for multiple service uses and receive secure single-use codes via email.",
 
