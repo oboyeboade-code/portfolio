@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "Manage users and workspace data in real time"
     ],
 
-    liveUrl: "",
+    liveUrl: "https://ems-app-dddad3c7aacuf0a3.canadacentral-01.azurewebsites.net/",
 
     stack: [
       "MongoDB",
