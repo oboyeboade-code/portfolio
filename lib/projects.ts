@@ -19,7 +19,7 @@ export const projects: Project[] = [
     ],
     // liveUrl: "https://project-scopevale.vercel.app/",
     liveUrl: "https://oboyeboade-code.github.io/motiva_app/",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["VANILLA HTML5/CSS3/JavaScript"],
     // stack: ["React", "Next.js", "CSS"],
   },
   {
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     ],
     liveUrl:
       "https://opeyemibariu.github.io/Final_Project_Studio-Build_-_Deploy_with_AI/",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
     title: "Simple Calculator",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
       "Press = to calculate, C to clear",
     ],
     liveUrl: "https://calculator-nine-kappa-11.vercel.app/",
-    stack: ["JavaScript", "HTML", "CSS"],
+    stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
     title: "WorkspaceOS - !Active",
