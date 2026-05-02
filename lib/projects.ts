@@ -47,7 +47,7 @@ export const projects: Project[] = [
     stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
-    title: "Workspace - v1.0-dev",
+    title: "WorkspaceOS",
     description:
       "A full-stack MERN-based productivity and workspace management platform for monitoring and organizing employee activities.",
 
@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "Manage users and workspace data in real time"
     ],
 
-    liveUrl: "https://ems-app-dddad3c7aacuf0a3.canadacentral-01.azurewebsites.net/",
+    liveUrl: "https://wksp-a9frdegveghxfxfc.canadacentral-01.azurewebsites.net/",
 
     stack: [
       "MongoDB",
