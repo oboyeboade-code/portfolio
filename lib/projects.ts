@@ -47,7 +47,7 @@ export const projects: Project[] = [
     stack: ["VANILLA HTML5/CSS3/JavaScript"],
   },
   {
-    title: "Workspace - in progress",
+    title: "Workspace - v1.0-dev",
     description:
       "A full-stack MERN-based productivity and workspace management platform for monitoring and organizing employee activities.",
 
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "Subs - in progress",
+    title: "Subs - v1.0-dev",
     description:
       "A full-stack MERN-based prepaid service code platform that allows users to prepay vendors for multiple service uses and receive secure single-use codes via email.",
 
@@ -95,7 +95,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "My Portfolio",
+    title: "Portfolio",
     description:
       "A personal developer portfolio showcasing my projects, skills, and growth as a fullstack developer.",
     steps: [
