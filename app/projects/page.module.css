@@ -1,0 +1,22 @@
+.wrapper { padding: var(--space-16) 0; }
+.head { margin-bottom: var(--space-12); max-width: 60ch; }
+.eyebrow {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: .9rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-3);
+}
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  margin-bottom: var(--space-3);
+}
+.lede { color: var(--muted); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+}
