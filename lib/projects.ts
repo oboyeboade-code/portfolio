@@ -65,7 +65,7 @@ export const projects: Project[] = [
       "Pick an operation (+, -, x, ÷)",
       "Press = to calculate, C to clear",
     ],
-    liveUrl: "https://calculator-nine-kappa-11.vercel.app/",
+    liveUrl: "https://simplycalcbyope.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/simple_calculator_app",
     stack: ["HTML5", "CSS3", "JavaScript"],
   },
