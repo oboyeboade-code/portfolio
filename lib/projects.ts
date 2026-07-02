@@ -40,7 +40,7 @@ export const projects: Project[] = [
       "Browse and read featured quotes",
       "Copy or share your favorites",
     ],
-    liveUrl: "https://oboyeboade-code.github.io/motiva_app/",
+    liveUrl: "https://oboyeboade-code.github.io/motiva_app",
     sourceUrl: "https://github.com/oboyeboade-code/motiva_app",
     stack: ["HTML5", "CSS3", "JavaScript"],
   },
@@ -65,7 +65,7 @@ export const projects: Project[] = [
       "Pick an operation (+, -, x, ÷)",
       "Press = to calculate, C to clear",
     ],
-    liveUrl: "https://simplycalcbyope.vercel.app",
+    liveUrl: "https://simple-calculator-digits-twelve.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/simple_calculator_app",
     stack: ["HTML5", "CSS3", "JavaScript"],
   },
@@ -93,19 +93,5 @@ export const projects: Project[] = [
   //     "Email Service (Transactional Emails)"
   //     "PayStack"
   //   ]
-  // },
-  // {
-  //   title: "Todo App",
-  //   description:
-  //     "A clean, persistent todo list to plan and track daily tasks.",
-  //   steps: [
-  //     "Add tasks with the input field",
-  //     "Click a task to mark it complete",
-  //     "Edit or delete tasks anytime",
-  //   ],
-  //   liveUrl:
-  //     "https://opeyemibariu.github.io/Final_Project_Studio-Build_-_Deploy_with_AI/",
-  //   sourceUrl: "https://github.com/opeyemibariu/Final_Project_Studio-Build_-_Deploy_with_AI",
-  //   stack: ["HTML5", "CSS3", "JavaScript"],
   // },
 ];
