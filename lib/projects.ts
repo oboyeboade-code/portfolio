@@ -40,9 +40,9 @@ export const projects: Project[] = [
       "Browse and read featured quotes",
       "Copy or share your favorites",
     ],
-    liveUrl: "https://oboyeboade-code.github.io/motiva_app",
+    liveUrl: "https://motiva-app-five.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/motiva_app",
-    stack: ["HTML5", "CSS3", "JavaScript"],
+stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizzle ORM"]
   },
   {
     title: "Portfolio",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://portfolio-oopeyemi.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/portfolio",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    stack: ["Vue 3", "Vite", "JavaScript", "Supabase", "Supabase Edge Functions", "PostgreSQL", "Deno"]
   },
   {
     title: "Simple Calculator",
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://simple-calculator-digits-twelve.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/simple_calculator_app",
-    stack: ["HTML5", "CSS3", "JavaScript"],
+    stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizzle ORM"]
   },
   // {
   //   title: "Subforme - v1.0-dev",
