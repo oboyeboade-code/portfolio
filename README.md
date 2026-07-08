@@ -65,4 +65,6 @@ portfolio/
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+The source code in this repository is licensed under the [MIT License](LICENSE).
+
+Unless otherwise stated, all personal content—including text, images, branding, project descriptions, and other portfolio assets—is © 2026 Opeyemi Oyeboade. These materials may not be copied, redistributed, or used without permission.
