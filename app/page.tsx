@@ -4,12 +4,12 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <section className={styles.hero}>
-      <p className={styles.eyebrow}>Junior Software Engineer</p>
+      <p className={styles.eyebrow}>Software Engineer</p>
       <h1 className={styles.name}>
         Opeyemi <span>Oyeboade</span>
       </h1>
       <p className={styles.lede}>
-        I build full-stack web applications with the MERN stack (MongoDB, Express, React, Node.js), focusing on clean architecture, responsive design, and seamless user experience.
+        I build full-stack web applications that turn ideas into functional, user-focused experiences. Passionate about clean architecture, problem solving, and continuous learning, I enjoy creating software that is reliable, scalable, and intuitive to use.
       </p>
 
       <div className={styles.ctas}>
@@ -33,6 +33,7 @@ export default function Home() {
 
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Socket.IO</li>
             <li>REST APIs</li>
 
             <li>Supabase</li>
@@ -43,8 +44,6 @@ export default function Home() {
           <ul className={styles.chips}>
             <li>JavaScript (ES6+)</li>
             <li>TypeScript</li>
-            <li>Python</li>
-            <li>HTML5</li>
           </ul>
         </div>
         <div className={styles.card}>

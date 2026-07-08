@@ -26,33 +26,43 @@ const sections = [
       </>
     ),
   },
-  {
-    title: "What I Do",
-    body: (
-      <>
-        <p>
-          I build full-stack web applications using modern JavaScript technologies,
-          with a focus on performance, usability, and clean architecture.
-        </p>
+{
+  title: "What I Do",
+  body: (
+    <>
+      <p>
+        I build full-stack web applications that solve real-world problems,
+        combining responsive interfaces with reliable backend systems. From
+        planning features to deploying applications, I enjoy turning ideas into
+        practical, user-focused software.
+      </p>
 
-        <ul>
-          <li>JavaScript (ES6+) &amp; TypeScript</li>
-          <li>React / Next.js</li>
-          <li>Node.js / Express.js (Backend APIs)</li>
-          <li>MongoDB (Database)</li>
-          <li>HTML &amp; CSS — Tailwind, CSS Modules</li>
-        </ul>
+      <p>
+        My projects include productivity platforms, personal
+        websites, and interactive web applications, giving me experience across
+        both frontend and backend development.
+      </p>
 
-        <p>I focus on:</p>
-        <ul>
-          <li>Responsive and accessible user interfaces</li>
-          <li>Full-stack applications with seamless frontend-backend integration</li>
-          <li>REST APIs and authentication systems</li>
-          <li>Writing clean, maintainable, and scalable code</li>
-        </ul>
-      </>
-    ),
-  },
+      <p>I regularly work with technologies such as:</p>
+
+      <ul>
+        <li>React, Next.js, Vue, and TypeScript</li>
+        <li>Node.js, Express.js, and REST APIs</li>
+        <li>MongoDB, PostgreSQL, and Supabase</li>
+        <li>Tailwind CSS, CSS Modules, and responsive UI design</li>
+      </ul>
+
+      <p>When building applications, I prioritize:</p>
+
+      <ul>
+        <li>Clean, maintainable, and scalable code</li>
+        <li>Responsive and accessible user interfaces</li>
+        <li>Well-structured backend architecture</li>
+        <li>Thoughtful user experience and performance</li>
+      </ul>
+    </>
+  ),
+},
   {
     title: "My Journey",
     body: (
