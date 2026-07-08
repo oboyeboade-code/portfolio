@@ -42,7 +42,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://motiva-app-five.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/motiva_app",
-stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizzle ORM"]
+    stack: ["Vue 3", "Vite", "JavaScript", "Supabase", "Supabase Edge Functions", "PostgreSQL", "Deno"],
   },
   {
     title: "Portfolio",
@@ -55,7 +55,16 @@ stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizz
     ],
     liveUrl: "https://portfolio-oopeyemi.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/portfolio",
-    stack: ["Vue 3", "Vite", "JavaScript", "Supabase", "Supabase Edge Functions", "PostgreSQL", "Deno"]
+    stack: [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Mongoose",
+      "Node.js",
+      "Express.js",
+    ]
   },
   {
     title: "Simple Calculator",
@@ -69,29 +78,29 @@ stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizz
     sourceUrl: "https://github.com/oboyeboade-code/simple_calculator_app",
     stack: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "SQLite", "Drizzle ORM"]
   },
-  // {
-  //   title: "Subforme - v1.0-dev",
-  //   description:
-  //     "A full-stack MERN-based prepaid service code platform that allows users to prepay vendors for multiple service uses and receive secure single-use codes via email.",
+  {
+    title: "Subforme - v1.0-dev",
+    description:
+      "A full-stack MERN-based prepaid service code platform that allows users to prepay vendors for multiple service uses and receive secure single-use codes via email.",
 
-  //   steps: [
-  //     "Browse available service providers",
-  //     "Select and purchase a prepaid bundle (N uses)",
-  //     "Receive single-use codes via email",
-  //     "Present code at provider location",
-  //     "Provider redeems code through dashboard"
-  //   ],
-  //   liveUrl: "https://subforme-eight.vercel.app",
-  //   sourceUrl: "https://github.com/oboyeboade-code/subforme_app",
-  //   stack: [
-  //     "MongoDB",
-  //     "Express.js",
-  //     "React",
-  //     "Node.js",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Email Service (Transactional Emails)"
-  //     "PayStack"
-  //   ]
-  // },
+    steps: [
+      "Browse available service providers",
+      "Select and purchase a prepaid bundle (N uses)",
+      "Receive single-use codes via email",
+      "Present code at provider location",
+      "Provider redeems code through dashboard"
+    ],
+    liveUrl: "https://subforme-eight.vercel.app",
+    sourceUrl: "https://github.com/oboyeboade-code/subforme_app",
+    stack: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "Email Service (Transactional Emails)",
+      "PayStack",
+    ]
+  },
 ];

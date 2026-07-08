@@ -39,14 +39,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
               Live demo →
             </Link>
           )}
-          {/* <Link
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Live demo →
-          </Link> */}
           {project.sourceUrl && (
             <Link
               href={project.sourceUrl}
