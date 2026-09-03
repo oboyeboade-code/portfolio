@@ -70,9 +70,7 @@ export const projects: Project[] = [
     title: "Simple Calculator",
     description: "A no-frills calculator for everyday arithmetic.",
     steps: [
-      "Tap numbers using the buttons",
-      "Pick an operation (+, -, x, ÷)",
-      "Press = to calculate, C to clear",
+      "Tap numbers using the buttons", "Pick an operation (+, -, x, ÷)", "Press = to calculate, C to clear",
     ],
     liveUrl: "https://simple-calculator-digits-twelve.vercel.app",
     sourceUrl: "https://github.com/oboyeboade-code/simple_calculator_app",
